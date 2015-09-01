@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		660E15CC1B946EFC0004BA23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E15CB1B946EFC0004BA23 /* AppDelegate.swift */; };
+		660E15CE1B946EFC0004BA23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E15CD1B946EFC0004BA23 /* ViewController.swift */; };
+		660E15D31B946EFC0004BA23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660E15D11B946EFC0004BA23 /* Main.storyboard */; };
+		660E15DF1B946EFC0004BA23 /* SalmonStreamingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E15DE1B946EFC0004BA23 /* SalmonStreamingTests.swift */; };
+		660E15EA1B9470E30004BA23 /* SalmonInstallation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E15E81B9470E30004BA23 /* SalmonInstallation.swift */; };
+		660E15EB1B9470E30004BA23 /* Streamer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E15E91B9470E30004BA23 /* Streamer.swift */; };
+		66CB643C1B95296300EBB600 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CB643B1B95296300EBB600 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		660E15D91B946EFC0004BA23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 660E15BE1B946EFC0004BA23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 660E15C51B946EFC0004BA23;
+			remoteInfo = SalmonStreaming;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		660E15C61B946EFC0004BA23 /* Salmon Streaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Salmon Streaming.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		660E15CA1B946EFC0004BA23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660E15CB1B946EFC0004BA23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		660E15CD1B946EFC0004BA23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		660E15D21B946EFC0004BA23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		660E15D81B946EFC0004BA23 /* SalmonStreamingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalmonStreamingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		660E15DD1B946EFC0004BA23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660E15DE1B946EFC0004BA23 /* SalmonStreamingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalmonStreamingTests.swift; sourceTree = "<group>"; };
+		660E15E81B9470E30004BA23 /* SalmonInstallation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalmonInstallation.swift; sourceTree = "<group>"; };
+		660E15E91B9470E30004BA23 /* Streamer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Streamer.swift; sourceTree = "<group>"; };
+		66CB643B1B95296300EBB600 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		660E15C31B946EFC0004BA23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660E15D51B946EFC0004BA23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		660E15BD1B946EFC0004BA23 = {
+			isa = PBXGroup;
+			children = (
+				660E15C81B946EFC0004BA23 /* SalmonStreaming */,
+				660E15DB1B946EFC0004BA23 /* SalmonStreamingTests */,
+				660E15C71B946EFC0004BA23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		660E15C71B946EFC0004BA23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				660E15C61B946EFC0004BA23 /* Salmon Streaming.app */,
+				660E15D81B946EFC0004BA23 /* SalmonStreamingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		660E15C81B946EFC0004BA23 /* SalmonStreaming */ = {
+			isa = PBXGroup;
+			children = (
+				660E15CB1B946EFC0004BA23 /* AppDelegate.swift */,
+				660E15CD1B946EFC0004BA23 /* ViewController.swift */,
+				660E15E81B9470E30004BA23 /* SalmonInstallation.swift */,
+				660E15E91B9470E30004BA23 /* Streamer.swift */,
+				660E15D11B946EFC0004BA23 /* Main.storyboard */,
+				66CB643B1B95296300EBB600 /* Images.xcassets */,
+				660E15C91B946EFC0004BA23 /* Supporting Files */,
+			);
+			path = SalmonStreaming;
+			sourceTree = "<group>";
+		};
+		660E15C91B946EFC0004BA23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				660E15CA1B946EFC0004BA23 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		660E15DB1B946EFC0004BA23 /* SalmonStreamingTests */ = {
+			isa = PBXGroup;
+			children = (
+				660E15DE1B946EFC0004BA23 /* SalmonStreamingTests.swift */,
+				660E15DC1B946EFC0004BA23 /* Supporting Files */,
+			);
+			path = SalmonStreamingTests;
+			sourceTree = "<group>";
+		};
+		660E15DC1B946EFC0004BA23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				660E15DD1B946EFC0004BA23 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		660E15C51B946EFC0004BA23 /* SalmonStreaming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660E15E21B946EFC0004BA23 /* Build configuration list for PBXNativeTarget "SalmonStreaming" */;
+			buildPhases = (
+				660E15C21B946EFC0004BA23 /* Sources */,
+				660E15C31B946EFC0004BA23 /* Frameworks */,
+				660E15C41B946EFC0004BA23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SalmonStreaming;
+			productName = SalmonStreaming;
+			productReference = 660E15C61B946EFC0004BA23 /* Salmon Streaming.app */;
+			productType = "com.apple.product-type.application";
+		};
+		660E15D71B946EFC0004BA23 /* SalmonStreamingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660E15E51B946EFC0004BA23 /* Build configuration list for PBXNativeTarget "SalmonStreamingTests" */;
+			buildPhases = (
+				660E15D41B946EFC0004BA23 /* Sources */,
+				660E15D51B946EFC0004BA23 /* Frameworks */,
+				660E15D61B946EFC0004BA23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				660E15DA1B946EFC0004BA23 /* PBXTargetDependency */,
+			);
+			name = SalmonStreamingTests;
+			productName = SalmonStreamingTests;
+			productReference = 660E15D81B946EFC0004BA23 /* SalmonStreamingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		660E15BE1B946EFC0004BA23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Adamgoodapp;
+				TargetAttributes = {
+					660E15C51B946EFC0004BA23 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = V7DQ232ZW4;
+					};
+					660E15D71B946EFC0004BA23 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 660E15C51B946EFC0004BA23;
+					};
+				};
+			};
+			buildConfigurationList = 660E15C11B946EFC0004BA23 /* Build configuration list for PBXProject "SalmonStreaming" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 660E15BD1B946EFC0004BA23;
+			productRefGroup = 660E15C71B946EFC0004BA23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				660E15C51B946EFC0004BA23 /* SalmonStreaming */,
+				660E15D71B946EFC0004BA23 /* SalmonStreamingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		660E15C41B946EFC0004BA23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660E15D31B946EFC0004BA23 /* Main.storyboard in Resources */,
+				66CB643C1B95296300EBB600 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660E15D61B946EFC0004BA23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		660E15C21B946EFC0004BA23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660E15EB1B9470E30004BA23 /* Streamer.swift in Sources */,
+				660E15CE1B946EFC0004BA23 /* ViewController.swift in Sources */,
+				660E15CC1B946EFC0004BA23 /* AppDelegate.swift in Sources */,
+				660E15EA1B9470E30004BA23 /* SalmonInstallation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660E15D41B946EFC0004BA23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660E15DF1B946EFC0004BA23 /* SalmonStreamingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		660E15DA1B946EFC0004BA23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 660E15C51B946EFC0004BA23 /* SalmonStreaming */;
+			targetProxy = 660E15D91B946EFC0004BA23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		660E15D11B946EFC0004BA23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660E15D21B946EFC0004BA23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		660E15E01B946EFC0004BA23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		660E15E11B946EFC0004BA23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		660E15E31B946EFC0004BA23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SalmonStreaming/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "Salmon Streaming";
+			};
+			name = Debug;
+		};
+		660E15E41B946EFC0004BA23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SalmonStreaming/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "Salmon Streaming";
+			};
+			name = Release;
+		};
+		660E15E61B946EFC0004BA23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SalmonStreamingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SalmonStreaming.app/Contents/MacOS/SalmonStreaming";
+			};
+			name = Debug;
+		};
+		660E15E71B946EFC0004BA23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SalmonStreamingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SalmonStreaming.app/Contents/MacOS/SalmonStreaming";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		660E15C11B946EFC0004BA23 /* Build configuration list for PBXProject "SalmonStreaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660E15E01B946EFC0004BA23 /* Debug */,
+				660E15E11B946EFC0004BA23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		660E15E21B946EFC0004BA23 /* Build configuration list for PBXNativeTarget "SalmonStreaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660E15E31B946EFC0004BA23 /* Debug */,
+				660E15E41B946EFC0004BA23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		660E15E51B946EFC0004BA23 /* Build configuration list for PBXNativeTarget "SalmonStreamingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660E15E61B946EFC0004BA23 /* Debug */,
+				660E15E71B946EFC0004BA23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 660E15BE1B946EFC0004BA23 /* Project object */;
+}
