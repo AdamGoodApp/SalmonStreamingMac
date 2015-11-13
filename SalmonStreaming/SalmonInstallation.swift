@@ -23,7 +23,7 @@ class SalmonInstaller {
     }
     
     func runInstall() {
-        if system("/usr/local/bin/brew -v") == 0 {
+        if system("/usr/local/bin/brew -v") != 0 {
             system("touch ~/salmon/install.command")
             system("chmod +x ~/salmon/install.command")
             system("curl -o ~/salmon/install.command https://s3-eu-west-1.amazonaws.com/salmonapp/Installation.command")
